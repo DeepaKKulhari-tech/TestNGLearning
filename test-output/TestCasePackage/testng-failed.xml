@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="9" guice-stage="DEVELOPMENT" name="Failed suite [TestCasePackage]" parallel="tests">
+  <parameter name="URL" value="www.facebook.com"/>
+  <listeners>
+    <listener class-name="test.ListenersActivity"/>
+  </listeners>
+  <test thread-count="9" name="Smoke(failed)" parallel="classes">
+    <classes>
+      <class name="test.TestNGXmlBasics">
+        <parameter name="URL" value="inner.facebook.coms"/>
+        <parameter name="Login" value="DK"/>
+        <methods>
+          <include name="siblingsName" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- test.TestNGXmlBasics -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+  <test thread-count="9" name="Regression(failed)" parallel="tests">
+    <classes>
+      <class name="test.TestNGXmlBasics">
+        <methods>
+          <include name="siblingsName" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- test.TestNGXmlBasics -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [TestCasePackage] -->

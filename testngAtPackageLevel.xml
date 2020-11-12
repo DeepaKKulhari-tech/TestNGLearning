@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNGAtPackage">
+
+	<test name="RunATPackageLevel">
+		<packages>
+			<package name="testPackage01"></package><!-- running the test case with package 
+				level only -->
+		</packages>
+	</test>
+
+</suite> <!-- Suite -->

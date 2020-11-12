@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" ignored="8" total="29" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestCasePackage" duration-ms="62" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="TestNGBasics.demo3()[pri:0, instance:test.TestNGBasics@675d3402]" name="demo3" class="test.TestNGBasics"/>
+        <method signature="TestNGXmlBasics.xmldemo2()[pri:0, instance:test.TestNGXmlBasics@51565ec2]" name="xmldemo2" class="test.TestNGXmlBasics"/>
+        <method signature="MobileTestSuit02.mobile04()[pri:0, instance:testPackage01.MobileTestSuit02@66a3ffec]" name="mobile04" class="testPackage01.MobileTestSuit02"/>
+        <method signature="MobileTestSuit02.mobile05()[pri:0, instance:testPackage01.MobileTestSuit02@66a3ffec]" name="mobile05" class="testPackage01.MobileTestSuit02"/>
+        <method signature="TestNGXmlBasics.xmldemo2()[pri:0, instance:test.TestNGXmlBasics@3e6fa38a]" name="xmldemo2" class="test.TestNGXmlBasics"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Smoke" duration-ms="50" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+      <class name="test.TestNGBasics">
+        <test-method status="PASS" signature="BeforeTestrun()[pri:0, instance:test.TestNGBasics@675d3402]" name="BeforeTestrun" is-config="true" duration-ms="8" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTestrun -->
+        <test-method status="PASS" signature="BeforeTestEachTestCase()[pri:0, instance:test.TestNGBasics@675d3402]" name="BeforeTestEachTestCase" is-config="true" duration-ms="0" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTestEachTestCase -->
+        <test-method status="PASS" signature="demo3()[pri:0, instance:test.TestNGBasics@675d3402]" name="demo3" duration-ms="5" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+        <test-method status="PASS" signature="AfteEachTestCase()[pri:0, instance:test.TestNGBasics@675d3402]" name="AfteEachTestCase" is-config="true" duration-ms="0" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfteEachTestCase -->
+        <test-method status="PASS" signature="BeforeTestEachTestCase()[pri:0, instance:test.TestNGBasics@675d3402]" name="BeforeTestEachTestCase" is-config="true" duration-ms="0" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTestEachTestCase -->
+        <test-method status="PASS" signature="demo2(java.lang.String, java.lang.String)[pri:1, instance:test.TestNGBasics@675d3402]" name="demo2" duration-ms="1" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[inner.facebook.coms]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+        <test-method status="PASS" signature="AfteEachTestCase()[pri:0, instance:test.TestNGBasics@675d3402]" name="AfteEachTestCase" is-config="true" duration-ms="0" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfteEachTestCase -->
+        <test-method status="PASS" signature="AfteEachClass()[pri:0, instance:test.TestNGBasics@675d3402]" name="AfteEachClass" is-config="true" duration-ms="1" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfteEachClass -->
+        <test-method status="PASS" signature="AfterTestrun()[pri:0, instance:test.TestNGBasics@675d3402]" name="AfterTestrun" is-config="true" duration-ms="0" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTestrun -->
+      </class> <!-- test.TestNGBasics -->
+      <class name="test.TestNGXmlBasics">
+        <test-method status="FAIL" signature="siblingsName(java.lang.String)[pri:0, instance:test.TestNGXmlBasics@51565ec2]" name="siblingsName" duration-ms="6" started-at="2020-10-24T08:29:42Z" data-provider="SpecialgetData" finished-at="2020-10-24T08:29:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deepak]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at test.TestNGXmlBasics.siblingsName(TestNGXmlBasics.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siblingsName -->
+        <test-method status="FAIL" signature="siblingsName(java.lang.String)[pri:0, instance:test.TestNGXmlBasics@51565ec2]" name="siblingsName" duration-ms="1" started-at="2020-10-24T08:29:42Z" data-provider="SpecialgetData" finished-at="2020-10-24T08:29:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Divya]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at test.TestNGXmlBasics.siblingsName(TestNGXmlBasics.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siblingsName -->
+        <test-method status="FAIL" signature="siblingsName(java.lang.String)[pri:0, instance:test.TestNGXmlBasics@51565ec2]" name="siblingsName" duration-ms="1" started-at="2020-10-24T08:29:42Z" data-provider="SpecialgetData" finished-at="2020-10-24T08:29:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anjali]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at test.TestNGXmlBasics.siblingsName(TestNGXmlBasics.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siblingsName -->
+        <test-method status="PASS" signature="xmldemo1(java.lang.String, java.lang.String)[pri:0, instance:test.TestNGXmlBasics@51565ec2]" name="xmldemo1" duration-ms="2" started-at="2020-10-24T08:29:42Z" data-provider="getData" finished-at="2020-10-24T08:29:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1991]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xmldemo1 -->
+        <test-method status="PASS" signature="xmldemo1(java.lang.String, java.lang.String)[pri:0, instance:test.TestNGXmlBasics@51565ec2]" name="xmldemo1" duration-ms="1" started-at="2020-10-24T08:29:42Z" data-provider="getData" finished-at="2020-10-24T08:29:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1889]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xmldemo1 -->
+        <test-method status="PASS" signature="xmldemo1(java.lang.String, java.lang.String)[pri:0, instance:test.TestNGXmlBasics@51565ec2]" name="xmldemo1" duration-ms="1" started-at="2020-10-24T08:29:42Z" data-provider="getData" finished-at="2020-10-24T08:29:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[baby]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xmldemo1 -->
+        <test-method status="PASS" signature="xmldemo2()[pri:0, instance:test.TestNGXmlBasics@51565ec2]" name="xmldemo2" duration-ms="1" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xmldemo2 -->
+      </class> <!-- test.TestNGXmlBasics -->
+    </test> <!-- Smoke -->
+    <test name="Regression" duration-ms="62" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+      <class name="test.TestNGBasics">
+        <test-method status="PASS" signature="AfteEachTestSuite()[pri:0, instance:test.TestNGBasics@675d3402]" name="AfteEachTestSuite" is-config="true" duration-ms="0" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfteEachTestSuite -->
+      </class> <!-- test.TestNGBasics -->
+      <class name="test.TestNGXmlBasics">
+        <test-method status="FAIL" signature="siblingsName(java.lang.String)[pri:0, instance:test.TestNGXmlBasics@3e6fa38a]" name="siblingsName" duration-ms="6" started-at="2020-10-24T08:29:42Z" data-provider="SpecialgetData" finished-at="2020-10-24T08:29:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deepak]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at test.TestNGXmlBasics.siblingsName(TestNGXmlBasics.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siblingsName -->
+        <test-method status="FAIL" signature="siblingsName(java.lang.String)[pri:0, instance:test.TestNGXmlBasics@3e6fa38a]" name="siblingsName" duration-ms="3" started-at="2020-10-24T08:29:42Z" data-provider="SpecialgetData" finished-at="2020-10-24T08:29:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Divya]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at test.TestNGXmlBasics.siblingsName(TestNGXmlBasics.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siblingsName -->
+        <test-method status="FAIL" signature="siblingsName(java.lang.String)[pri:0, instance:test.TestNGXmlBasics@3e6fa38a]" name="siblingsName" duration-ms="2" started-at="2020-10-24T08:29:42Z" data-provider="SpecialgetData" finished-at="2020-10-24T08:29:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anjali]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at test.TestNGXmlBasics.siblingsName(TestNGXmlBasics.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siblingsName -->
+        <test-method status="PASS" signature="xmldemo1(java.lang.String, java.lang.String)[pri:0, instance:test.TestNGXmlBasics@3e6fa38a]" name="xmldemo1" duration-ms="2" started-at="2020-10-24T08:29:42Z" data-provider="getData" finished-at="2020-10-24T08:29:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1991]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xmldemo1 -->
+        <test-method status="PASS" signature="xmldemo1(java.lang.String, java.lang.String)[pri:0, instance:test.TestNGXmlBasics@3e6fa38a]" name="xmldemo1" duration-ms="2" started-at="2020-10-24T08:29:42Z" data-provider="getData" finished-at="2020-10-24T08:29:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1889]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xmldemo1 -->
+        <test-method status="PASS" signature="xmldemo1(java.lang.String, java.lang.String)[pri:0, instance:test.TestNGXmlBasics@3e6fa38a]" name="xmldemo1" duration-ms="1" started-at="2020-10-24T08:29:42Z" data-provider="getData" finished-at="2020-10-24T08:29:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[baby]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xmldemo1 -->
+        <test-method status="PASS" signature="xmldemo2()[pri:0, instance:test.TestNGXmlBasics@3e6fa38a]" name="xmldemo2" duration-ms="1" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xmldemo2 -->
+      </class> <!-- test.TestNGXmlBasics -->
+      <class name="testPackage01.MobileTestSuit02">
+        <test-method status="PASS" signature="mobile04()[pri:0, instance:testPackage01.MobileTestSuit02@66a3ffec]" name="mobile04" duration-ms="4" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile04 -->
+        <test-method status="PASS" signature="mobile01()[pri:0, instance:testPackage01.MobileTestSuit02@66a3ffec]" name="mobile01" duration-ms="1" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile01 -->
+        <test-method status="PASS" signature="mobile02()[pri:0, instance:testPackage01.MobileTestSuit02@66a3ffec]" name="mobile02" duration-ms="1" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile02 -->
+        <test-method status="PASS" signature="mobile03()[pri:0, instance:testPackage01.MobileTestSuit02@66a3ffec]" name="mobile03" duration-ms="1" started-at="2020-10-24T08:29:42Z" finished-at="2020-10-24T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile03 -->
+        <test-method status="PASS" signature="mobile05()[pri:0, instance:testPackage01.MobileTestSuit02@66a3ffec]" name="mobile05" duration-ms="1" started-at="2020-10-24T08:29:42Z" depends-on-methods="testPackage01.MobileTestSuit02.mobile04" finished-at="2020-10-24T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile05 -->
+      </class> <!-- testPackage01.MobileTestSuit02 -->
+    </test> <!-- Regression -->
+  </suite> <!-- TestCasePackage -->
+</testng-results>

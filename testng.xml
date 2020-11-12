@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestCasePackage" parallel="tests" thread-count="9">
+<listeners><listener class-name="test.ListenersActivity"></listener></listeners>
+	<parameter name="URL" value="www.facebook.com"></parameter><!-- to define global 
+		parameters ,it can be at class level or test level or method level -->
+
+	<test name="Smoke" parallel="classes">
+		<classes>
+			<class name="test.TestNGBasics">
+				<parameter name="URL" value="inner.facebook.coms"></parameter>
+				<parameter name="Login" value="DK"></parameter>
+				<methods>
+					<include name="demo2"></include>
+					<include name="demo3" /> <!-- include tag only one method -->
+				</methods>
+			</class>
+			<class name="test.TestNGXmlBasics" />
+
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="Regression">
+		<classes>
+			<class name="test.TestNGXmlBasics" />
+			<class name="test.TestSuit01">
+				<methods>
+					<exclude name="demo1suit" /><!-- exclude tag to exclude any 
+						method -->
+				</methods>
+			</class>
+			<class name="test.TestSuit02">
+				<methods>
+					<exclude name="mobile.*" /><!-- regular Expression usage to 
+						remove in bulk -->
+				</methods>
+			</class>
+			<class name="testPackage01.MobileTestSuit02"></class>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

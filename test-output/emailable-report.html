@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">TestCasePackage</th></tr>
+<tr><td><a href="#t0">Smoke</a></td><td class="num">6</td><td class="num">0</td><td class="num attn">3</td><td class="num">50</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Regression</a></td><td class="num">9</td><td class="num">0</td><td class="num attn">3</td><td class="num">62</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">15</th><th class="num">0</th><th class="num attn">6</th><th class="num">112</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestCasePackage</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Smoke &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">test.TestNGXmlBasics</td><td><a href="#m0">siblingsName</a></td><td rowspan="3">1603528182102</td><td rowspan="3">6</td></tr><tr class="failedeven"><td><a href="#m1">siblingsName</a></td></tr><tr class="failedeven"><td><a href="#m2">siblingsName</a></td></tr><tr><th colspan="4">Smoke &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">test.TestNGBasics</td><td><a href="#m3">demo2</a></td><td rowspan="1">1603528182134</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m4">demo3</a></td><td rowspan="1">1603528182102</td><td rowspan="1">5</td></tr><tr class="passedodd"><td rowspan="4">test.TestNGXmlBasics</td><td><a href="#m5">xmldemo1</a></td><td rowspan="3">1603528182120</td><td rowspan="3">2</td></tr><tr class="passedodd"><td><a href="#m6">xmldemo1</a></td></tr><tr class="passedodd"><td><a href="#m7">xmldemo1</a></td></tr><tr class="passedodd"><td><a href="#m8">xmldemo2</a></td><td rowspan="1">1603528182130</td><td rowspan="1">1</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Regression &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">test.TestNGXmlBasics</td><td><a href="#m9">siblingsName</a></td><td rowspan="3">1603528182116</td><td rowspan="3">2</td></tr><tr class="failedeven"><td><a href="#m10">siblingsName</a></td></tr><tr class="failedeven"><td><a href="#m11">siblingsName</a></td></tr><tr><th colspan="4">Regression &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">test.TestNGXmlBasics</td><td><a href="#m12">xmldemo1</a></td><td rowspan="3">1603528182123</td><td rowspan="3">2</td></tr><tr class="passedeven"><td><a href="#m13">xmldemo1</a></td></tr><tr class="passedeven"><td><a href="#m14">xmldemo1</a></td></tr><tr class="passedeven"><td><a href="#m15">xmldemo2</a></td><td rowspan="1">1603528182129</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="5">testPackage01.MobileTestSuit02</td><td><a href="#m16">mobile01</a></td><td rowspan="1">1603528182137</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m17">mobile02</a></td><td rowspan="1">1603528182139</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m18">mobile03</a></td><td rowspan="1">1603528182141</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m19">mobile04</a></td><td rowspan="1">1603528182132</td><td rowspan="1">4</td></tr><tr class="passedodd"><td><a href="#m20">mobile05</a></td><td rowspan="1">1603528182145</td><td rowspan="1">1</td></tr></tbody>
+</table>
+<h2>Smoke</h2><h3 id="m0">test.TestNGXmlBasics#siblingsName</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Deepak</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at test.TestNGXmlBasics.siblingsName(TestNGXmlBasics.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.TestNGXmlBasics#siblingsName</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Anjali</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at test.TestNGXmlBasics.siblingsName(TestNGXmlBasics.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test.TestNGXmlBasics#siblingsName</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Divya</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at test.TestNGXmlBasics.siblingsName(TestNGXmlBasics.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test.TestNGBasics#demo2</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>inner.facebook.coms</td><td>DK</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">test.TestNGBasics#demo3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">test.TestNGXmlBasics#xmldemo1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>DK</td><td>1991</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">test.TestNGXmlBasics#xmldemo1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>SK</td><td>1889</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">test.TestNGXmlBasics#xmldemo1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>baby</td><td>2023</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">test.TestNGXmlBasics#xmldemo2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Regression</h2><h3 id="m9">test.TestNGXmlBasics#siblingsName</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Anjali</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at test.TestNGXmlBasics.siblingsName(TestNGXmlBasics.java:30)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">test.TestNGXmlBasics#siblingsName</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Divya</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at test.TestNGXmlBasics.siblingsName(TestNGXmlBasics.java:30)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">test.TestNGXmlBasics#siblingsName</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Deepak</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at test.TestNGXmlBasics.siblingsName(TestNGXmlBasics.java:30)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">test.TestNGXmlBasics#xmldemo1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>SK</td><td>1889</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">test.TestNGXmlBasics#xmldemo1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>baby</td><td>2023</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">test.TestNGXmlBasics#xmldemo1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>DK</td><td>1991</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">test.TestNGXmlBasics#xmldemo2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">testPackage01.MobileTestSuit02#mobile01</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">testPackage01.MobileTestSuit02#mobile02</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">testPackage01.MobileTestSuit02#mobile03</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">testPackage01.MobileTestSuit02#mobile04</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">testPackage01.MobileTestSuit02#mobile05</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

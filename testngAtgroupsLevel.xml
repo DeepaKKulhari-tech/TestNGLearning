@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNGAtGroup">
+	<test name="Special Test cases">
+		<groups>
+			<run>
+				<include name="Smoke"></include><!-- to create groups to pick test cases 
+					for smoke -->
+				<exclude name="Regression"></exclude><!-- exclude from the specific smoke 
+					group -->
+			</run>
+		</groups>
+		<classes>
+			<class name="test.TestNGBasics"></class>
+			<class name="test.TestNGXmlBasics"></class>
+			<class name="test.TestSuit01"></class>
+			<class name="test.TestSuit02"></class>
+			<class name="testPackage01.MobileTestSuit02"></class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
